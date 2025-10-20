@@ -14,7 +14,9 @@ This repository contains the rewritten version of the research paper "Mauve Intr
 
 The MI metric is defined as:
 
-\[ \text{MI}(t) = \frac{R \cdot B}{(R + B)^2} \exp\left(-\frac{G}{\sqrt{R \cdot B}}\right) \]
+$$ 
+\text{MI}(t) = \frac{R \cdot B}{(R + B)^2} \exp\left(-\frac{G}{\sqrt{R \cdot B}}\right)
+$$
 
 Key features demonstrated include stable low-frequency rhythms (~0.16 Hz), weak entropy correlations (Pearson r ≈ 0.12), turbulence ratios (~4.5), partial entrainment (e.g., 25% amplitude variance reduction in the driven Rössler), and system-specific bleed dynamics (e.g., fractions ≈0.30 for Lorenz, ≈0.010 for Rössler).
 
